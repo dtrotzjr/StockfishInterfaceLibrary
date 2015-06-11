@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0713C01D1B2931AA0081B830 /* StockfishInterfaceLibrary.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0713C01C1B2931AA0081B830 /* StockfishInterfaceLibrary.h */; };
+		0713C01F1B2931AA0081B830 /* StockfishInterfaceLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 0713C01E1B2931AA0081B830 /* StockfishInterfaceLibrary.m */; };
+		0713C0251B2931AA0081B830 /* libStockfishInterfaceLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0713C0191B2931AA0081B830 /* libStockfishInterfaceLibrary.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0713C0261B2931AA0081B830 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0713C0111B2931AA0081B830 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0713C0181B2931AA0081B830;
+			remoteInfo = StockfishInterfaceLibrary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0713C0171B2931AA0081B830 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				0713C01D1B2931AA0081B830 /* StockfishInterfaceLibrary.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0713C0191B2931AA0081B830 /* libStockfishInterfaceLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libStockfishInterfaceLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0713C01C1B2931AA0081B830 /* StockfishInterfaceLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StockfishInterfaceLibrary.h; sourceTree = "<group>"; };
+		0713C01E1B2931AA0081B830 /* StockfishInterfaceLibrary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StockfishInterfaceLibrary.m; sourceTree = "<group>"; };
+		0713C0241B2931AA0081B830 /* StockfishInterfaceLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StockfishInterfaceLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0713C02A1B2931AA0081B830 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0713C0161B2931AA0081B830 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0713C0211B2931AA0081B830 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0713C0251B2931AA0081B830 /* libStockfishInterfaceLibrary.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0713C0101B2931AA0081B830 = {
+			isa = PBXGroup;
+			children = (
+				0713C01B1B2931AA0081B830 /* StockfishInterfaceLibrary */,
+				0713C0281B2931AA0081B830 /* StockfishInterfaceLibraryTests */,
+				0713C01A1B2931AA0081B830 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0713C01A1B2931AA0081B830 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0713C0191B2931AA0081B830 /* libStockfishInterfaceLibrary.a */,
+				0713C0241B2931AA0081B830 /* StockfishInterfaceLibraryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0713C01B1B2931AA0081B830 /* StockfishInterfaceLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				0713C01C1B2931AA0081B830 /* StockfishInterfaceLibrary.h */,
+				0713C01E1B2931AA0081B830 /* StockfishInterfaceLibrary.m */,
+			);
+			path = StockfishInterfaceLibrary;
+			sourceTree = "<group>";
+		};
+		0713C0281B2931AA0081B830 /* StockfishInterfaceLibraryTests */ = {
+			isa = PBXGroup;
+			children = (
+				0713C0291B2931AA0081B830 /* Supporting Files */,
+			);
+			path = StockfishInterfaceLibraryTests;
+			sourceTree = "<group>";
+		};
+		0713C0291B2931AA0081B830 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0713C02A1B2931AA0081B830 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0713C0181B2931AA0081B830 /* StockfishInterfaceLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0713C02D1B2931AA0081B830 /* Build configuration list for PBXNativeTarget "StockfishInterfaceLibrary" */;
+			buildPhases = (
+				0713C0151B2931AA0081B830 /* Sources */,
+				0713C0161B2931AA0081B830 /* Frameworks */,
+				0713C0171B2931AA0081B830 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StockfishInterfaceLibrary;
+			productName = StockfishInterfaceLibrary;
+			productReference = 0713C0191B2931AA0081B830 /* libStockfishInterfaceLibrary.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		0713C0231B2931AA0081B830 /* StockfishInterfaceLibraryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0713C0301B2931AA0081B830 /* Build configuration list for PBXNativeTarget "StockfishInterfaceLibraryTests" */;
+			buildPhases = (
+				0713C0201B2931AA0081B830 /* Sources */,
+				0713C0211B2931AA0081B830 /* Frameworks */,
+				0713C0221B2931AA0081B830 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0713C0271B2931AA0081B830 /* PBXTargetDependency */,
+			);
+			name = StockfishInterfaceLibraryTests;
+			productName = StockfishInterfaceLibraryTests;
+			productReference = 0713C0241B2931AA0081B830 /* StockfishInterfaceLibraryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0713C0111B2931AA0081B830 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "AppPoetry LLC";
+				TargetAttributes = {
+					0713C0181B2931AA0081B830 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					0713C0231B2931AA0081B830 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = 0713C0141B2931AA0081B830 /* Build configuration list for PBXProject "StockfishInterfaceLibrary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0713C0101B2931AA0081B830;
+			productRefGroup = 0713C01A1B2931AA0081B830 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0713C0181B2931AA0081B830 /* StockfishInterfaceLibrary */,
+				0713C0231B2931AA0081B830 /* StockfishInterfaceLibraryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0713C0221B2931AA0081B830 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0713C0151B2931AA0081B830 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0713C01F1B2931AA0081B830 /* StockfishInterfaceLibrary.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0713C0201B2931AA0081B830 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0713C0271B2931AA0081B830 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0713C0181B2931AA0081B830 /* StockfishInterfaceLibrary */;
+			targetProxy = 0713C0261B2931AA0081B830 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0713C02B1B2931AA0081B830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0713C02C1B2931AA0081B830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0713C02E1B2931AA0081B830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0713C02F1B2931AA0081B830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		0713C0311B2931AA0081B830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StockfishInterfaceLibraryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0713C0321B2931AA0081B830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StockfishInterfaceLibraryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0713C0141B2931AA0081B830 /* Build configuration list for PBXProject "StockfishInterfaceLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0713C02B1B2931AA0081B830 /* Debug */,
+				0713C02C1B2931AA0081B830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0713C02D1B2931AA0081B830 /* Build configuration list for PBXNativeTarget "StockfishInterfaceLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0713C02E1B2931AA0081B830 /* Debug */,
+				0713C02F1B2931AA0081B830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0713C0301B2931AA0081B830 /* Build configuration list for PBXNativeTarget "StockfishInterfaceLibraryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0713C0311B2931AA0081B830 /* Debug */,
+				0713C0321B2931AA0081B830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0713C0111B2931AA0081B830 /* Project object */;
+}
