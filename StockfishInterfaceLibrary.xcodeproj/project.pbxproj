@@ -7,9 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0713C01D1B2931AA0081B830 /* StockfishInterfaceLibrary.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0713C01C1B2931AA0081B830 /* StockfishInterfaceLibrary.h */; };
-		0713C01F1B2931AA0081B830 /* StockfishInterfaceLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 0713C01E1B2931AA0081B830 /* StockfishInterfaceLibrary.m */; };
 		0713C0251B2931AA0081B830 /* libStockfishInterfaceLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0713C0191B2931AA0081B830 /* libStockfishInterfaceLibrary.a */; };
+		0713C06A1B2933B70081B830 /* aptrie.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0713C0341B2933B70081B830 /* aptrie.cpp */; };
+		0713C06B1B2933B70081B830 /* benchmark.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0713C0371B2933B70081B830 /* benchmark.cpp */; };
+		0713C06C1B2933B70081B830 /* bitbase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0713C0381B2933B70081B830 /* bitbase.cpp */; };
+		0713C06D1B2933B70081B830 /* bitboard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0713C0391B2933B70081B830 /* bitboard.cpp */; };
+		0713C06E1B2933B70081B830 /* endgame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0713C03C1B2933B70081B830 /* endgame.cpp */; };
+		0713C06F1B2933B70081B830 /* evaluate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0713C03E1B2933B70081B830 /* evaluate.cpp */; };
+		0713C0701B2933B70081B830 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0713C0401B2933B70081B830 /* main.cpp */; };
+		0713C0711B2933B70081B830 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 0713C0411B2933B70081B830 /* Makefile */; };
+		0713C0721B2933B70081B830 /* material.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0713C0421B2933B70081B830 /* material.cpp */; };
+		0713C0731B2933B70081B830 /* misc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0713C0441B2933B70081B830 /* misc.cpp */; };
+		0713C0741B2933B70081B830 /* movegen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0713C0461B2933B70081B830 /* movegen.cpp */; };
+		0713C0751B2933B70081B830 /* movepick.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0713C0481B2933B70081B830 /* movepick.cpp */; };
+		0713C0761B2933B70081B830 /* pawns.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0713C04A1B2933B70081B830 /* pawns.cpp */; };
+		0713C0771B2933B70081B830 /* position.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0713C04D1B2933B70081B830 /* position.cpp */; };
+		0713C0781B2933B70081B830 /* search.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0713C0501B2933B70081B830 /* search.cpp */; };
+		0713C0791B2933B70081B830 /* tbcore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0713C0531B2933B70081B830 /* tbcore.cpp */; };
+		0713C07A1B2933B70081B830 /* tbprobe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0713C0551B2933B70081B830 /* tbprobe.cpp */; };
+		0713C07B1B2933B70081B830 /* thread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0713C0571B2933B70081B830 /* thread.cpp */; };
+		0713C07C1B2933B70081B830 /* timeman.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0713C0591B2933B70081B830 /* timeman.cpp */; };
+		0713C07D1B2933B70081B830 /* tt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0713C05B1B2933B70081B830 /* tt.cpp */; };
+		0713C07E1B2933B70081B830 /* uci.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0713C05E1B2933B70081B830 /* uci.cpp */; };
+		0713C07F1B2933B70081B830 /* ucioption.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0713C0601B2933B70081B830 /* ucioption.cpp */; };
+		0713C0801B2933B70081B830 /* stockfishanalysisinfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0713C0611B2933B70081B830 /* stockfishanalysisinfo.cpp */; };
+		0713C0811B2933B70081B830 /* stockfishenginetoguistream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0713C0641B2933B70081B830 /* stockfishenginetoguistream.cpp */; };
+		0713C0821B2933B70081B830 /* stockfishguitoenginestream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0713C0661B2933B70081B830 /* stockfishguitoenginestream.cpp */; };
+		0713C0831B2933B70081B830 /* stockfishremote.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0713C0681B2933B70081B830 /* stockfishremote.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +53,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				0713C01D1B2931AA0081B830 /* StockfishInterfaceLibrary.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,10 +60,60 @@
 
 /* Begin PBXFileReference section */
 		0713C0191B2931AA0081B830 /* libStockfishInterfaceLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libStockfishInterfaceLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		0713C01C1B2931AA0081B830 /* StockfishInterfaceLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StockfishInterfaceLibrary.h; sourceTree = "<group>"; };
-		0713C01E1B2931AA0081B830 /* StockfishInterfaceLibrary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StockfishInterfaceLibrary.m; sourceTree = "<group>"; };
 		0713C0241B2931AA0081B830 /* StockfishInterfaceLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StockfishInterfaceLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0713C02A1B2931AA0081B830 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0713C0341B2933B70081B830 /* aptrie.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = aptrie.cpp; sourceTree = "<group>"; };
+		0713C0351B2933B70081B830 /* aptrie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aptrie.h; sourceTree = "<group>"; };
+		0713C0371B2933B70081B830 /* benchmark.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = benchmark.cpp; sourceTree = "<group>"; };
+		0713C0381B2933B70081B830 /* bitbase.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = bitbase.cpp; sourceTree = "<group>"; };
+		0713C0391B2933B70081B830 /* bitboard.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = bitboard.cpp; sourceTree = "<group>"; };
+		0713C03A1B2933B70081B830 /* bitboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bitboard.h; sourceTree = "<group>"; };
+		0713C03B1B2933B70081B830 /* bitcount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bitcount.h; sourceTree = "<group>"; };
+		0713C03C1B2933B70081B830 /* endgame.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = endgame.cpp; sourceTree = "<group>"; };
+		0713C03D1B2933B70081B830 /* endgame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = endgame.h; sourceTree = "<group>"; };
+		0713C03E1B2933B70081B830 /* evaluate.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = evaluate.cpp; sourceTree = "<group>"; };
+		0713C03F1B2933B70081B830 /* evaluate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = evaluate.h; sourceTree = "<group>"; };
+		0713C0401B2933B70081B830 /* main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = main.cpp; sourceTree = "<group>"; };
+		0713C0411B2933B70081B830 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		0713C0421B2933B70081B830 /* material.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = material.cpp; sourceTree = "<group>"; };
+		0713C0431B2933B70081B830 /* material.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = material.h; sourceTree = "<group>"; };
+		0713C0441B2933B70081B830 /* misc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = misc.cpp; sourceTree = "<group>"; };
+		0713C0451B2933B70081B830 /* misc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = misc.h; sourceTree = "<group>"; };
+		0713C0461B2933B70081B830 /* movegen.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = movegen.cpp; sourceTree = "<group>"; };
+		0713C0471B2933B70081B830 /* movegen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = movegen.h; sourceTree = "<group>"; };
+		0713C0481B2933B70081B830 /* movepick.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = movepick.cpp; sourceTree = "<group>"; };
+		0713C0491B2933B70081B830 /* movepick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = movepick.h; sourceTree = "<group>"; };
+		0713C04A1B2933B70081B830 /* pawns.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = pawns.cpp; sourceTree = "<group>"; };
+		0713C04B1B2933B70081B830 /* pawns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pawns.h; sourceTree = "<group>"; };
+		0713C04C1B2933B70081B830 /* platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = platform.h; sourceTree = "<group>"; };
+		0713C04D1B2933B70081B830 /* position.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = position.cpp; sourceTree = "<group>"; };
+		0713C04E1B2933B70081B830 /* position.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = position.h; sourceTree = "<group>"; };
+		0713C04F1B2933B70081B830 /* psqtab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = psqtab.h; sourceTree = "<group>"; };
+		0713C0501B2933B70081B830 /* search.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = search.cpp; sourceTree = "<group>"; };
+		0713C0511B2933B70081B830 /* search.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = search.h; sourceTree = "<group>"; };
+		0713C0531B2933B70081B830 /* tbcore.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = tbcore.cpp; sourceTree = "<group>"; };
+		0713C0541B2933B70081B830 /* tbcore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tbcore.h; sourceTree = "<group>"; };
+		0713C0551B2933B70081B830 /* tbprobe.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = tbprobe.cpp; sourceTree = "<group>"; };
+		0713C0561B2933B70081B830 /* tbprobe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tbprobe.h; sourceTree = "<group>"; };
+		0713C0571B2933B70081B830 /* thread.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = thread.cpp; sourceTree = "<group>"; };
+		0713C0581B2933B70081B830 /* thread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thread.h; sourceTree = "<group>"; };
+		0713C0591B2933B70081B830 /* timeman.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = timeman.cpp; sourceTree = "<group>"; };
+		0713C05A1B2933B70081B830 /* timeman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timeman.h; sourceTree = "<group>"; };
+		0713C05B1B2933B70081B830 /* tt.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = tt.cpp; sourceTree = "<group>"; };
+		0713C05C1B2933B70081B830 /* tt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tt.h; sourceTree = "<group>"; };
+		0713C05D1B2933B70081B830 /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		0713C05E1B2933B70081B830 /* uci.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = uci.cpp; sourceTree = "<group>"; };
+		0713C05F1B2933B70081B830 /* uci.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uci.h; sourceTree = "<group>"; };
+		0713C0601B2933B70081B830 /* ucioption.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = ucioption.cpp; sourceTree = "<group>"; };
+		0713C0611B2933B70081B830 /* stockfishanalysisinfo.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = stockfishanalysisinfo.cpp; sourceTree = "<group>"; };
+		0713C0621B2933B70081B830 /* stockfishanalysisinfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stockfishanalysisinfo.h; sourceTree = "<group>"; };
+		0713C0631B2933B70081B830 /* stockfishenginetoguiinterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stockfishenginetoguiinterface.h; sourceTree = "<group>"; };
+		0713C0641B2933B70081B830 /* stockfishenginetoguistream.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = stockfishenginetoguistream.cpp; sourceTree = "<group>"; };
+		0713C0651B2933B70081B830 /* stockfishenginetoguistream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stockfishenginetoguistream.h; sourceTree = "<group>"; };
+		0713C0661B2933B70081B830 /* stockfishguitoenginestream.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = stockfishguitoenginestream.cpp; sourceTree = "<group>"; };
+		0713C0671B2933B70081B830 /* stockfishguitoenginestream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stockfishguitoenginestream.h; sourceTree = "<group>"; };
+		0713C0681B2933B70081B830 /* stockfishremote.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = stockfishremote.cpp; sourceTree = "<group>"; };
+		0713C0691B2933B70081B830 /* stockfishremote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stockfishremote.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +156,7 @@
 		0713C01B1B2931AA0081B830 /* StockfishInterfaceLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				0713C01C1B2931AA0081B830 /* StockfishInterfaceLibrary.h */,
-				0713C01E1B2931AA0081B830 /* StockfishInterfaceLibrary.m */,
+				0713C0331B2933B70081B830 /* src */,
 			);
 			path = StockfishInterfaceLibrary;
 			sourceTree = "<group>";
@@ -103,6 +175,81 @@
 				0713C02A1B2931AA0081B830 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0713C0331B2933B70081B830 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				0713C0341B2933B70081B830 /* aptrie.cpp */,
+				0713C0351B2933B70081B830 /* aptrie.h */,
+				0713C0361B2933B70081B830 /* stockfish */,
+				0713C0611B2933B70081B830 /* stockfishanalysisinfo.cpp */,
+				0713C0621B2933B70081B830 /* stockfishanalysisinfo.h */,
+				0713C0631B2933B70081B830 /* stockfishenginetoguiinterface.h */,
+				0713C0641B2933B70081B830 /* stockfishenginetoguistream.cpp */,
+				0713C0651B2933B70081B830 /* stockfishenginetoguistream.h */,
+				0713C0661B2933B70081B830 /* stockfishguitoenginestream.cpp */,
+				0713C0671B2933B70081B830 /* stockfishguitoenginestream.h */,
+				0713C0681B2933B70081B830 /* stockfishremote.cpp */,
+				0713C0691B2933B70081B830 /* stockfishremote.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		0713C0361B2933B70081B830 /* stockfish */ = {
+			isa = PBXGroup;
+			children = (
+				0713C0371B2933B70081B830 /* benchmark.cpp */,
+				0713C0381B2933B70081B830 /* bitbase.cpp */,
+				0713C0391B2933B70081B830 /* bitboard.cpp */,
+				0713C03A1B2933B70081B830 /* bitboard.h */,
+				0713C03B1B2933B70081B830 /* bitcount.h */,
+				0713C03C1B2933B70081B830 /* endgame.cpp */,
+				0713C03D1B2933B70081B830 /* endgame.h */,
+				0713C03E1B2933B70081B830 /* evaluate.cpp */,
+				0713C03F1B2933B70081B830 /* evaluate.h */,
+				0713C0401B2933B70081B830 /* main.cpp */,
+				0713C0411B2933B70081B830 /* Makefile */,
+				0713C0421B2933B70081B830 /* material.cpp */,
+				0713C0431B2933B70081B830 /* material.h */,
+				0713C0441B2933B70081B830 /* misc.cpp */,
+				0713C0451B2933B70081B830 /* misc.h */,
+				0713C0461B2933B70081B830 /* movegen.cpp */,
+				0713C0471B2933B70081B830 /* movegen.h */,
+				0713C0481B2933B70081B830 /* movepick.cpp */,
+				0713C0491B2933B70081B830 /* movepick.h */,
+				0713C04A1B2933B70081B830 /* pawns.cpp */,
+				0713C04B1B2933B70081B830 /* pawns.h */,
+				0713C04C1B2933B70081B830 /* platform.h */,
+				0713C04D1B2933B70081B830 /* position.cpp */,
+				0713C04E1B2933B70081B830 /* position.h */,
+				0713C04F1B2933B70081B830 /* psqtab.h */,
+				0713C0501B2933B70081B830 /* search.cpp */,
+				0713C0511B2933B70081B830 /* search.h */,
+				0713C0521B2933B70081B830 /* syzygy */,
+				0713C0571B2933B70081B830 /* thread.cpp */,
+				0713C0581B2933B70081B830 /* thread.h */,
+				0713C0591B2933B70081B830 /* timeman.cpp */,
+				0713C05A1B2933B70081B830 /* timeman.h */,
+				0713C05B1B2933B70081B830 /* tt.cpp */,
+				0713C05C1B2933B70081B830 /* tt.h */,
+				0713C05D1B2933B70081B830 /* types.h */,
+				0713C05E1B2933B70081B830 /* uci.cpp */,
+				0713C05F1B2933B70081B830 /* uci.h */,
+				0713C0601B2933B70081B830 /* ucioption.cpp */,
+			);
+			path = stockfish;
+			sourceTree = "<group>";
+		};
+		0713C0521B2933B70081B830 /* syzygy */ = {
+			isa = PBXGroup;
+			children = (
+				0713C0531B2933B70081B830 /* tbcore.cpp */,
+				0713C0541B2933B70081B830 /* tbcore.h */,
+				0713C0551B2933B70081B830 /* tbprobe.cpp */,
+				0713C0561B2933B70081B830 /* tbprobe.h */,
+			);
+			path = syzygy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,7 +340,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0713C01F1B2931AA0081B830 /* StockfishInterfaceLibrary.m in Sources */,
+				0713C0711B2933B70081B830 /* Makefile in Sources */,
+				0713C0781B2933B70081B830 /* search.cpp in Sources */,
+				0713C0831B2933B70081B830 /* stockfishremote.cpp in Sources */,
+				0713C06B1B2933B70081B830 /* benchmark.cpp in Sources */,
+				0713C06F1B2933B70081B830 /* evaluate.cpp in Sources */,
+				0713C0731B2933B70081B830 /* misc.cpp in Sources */,
+				0713C0791B2933B70081B830 /* tbcore.cpp in Sources */,
+				0713C06A1B2933B70081B830 /* aptrie.cpp in Sources */,
+				0713C07D1B2933B70081B830 /* tt.cpp in Sources */,
+				0713C07F1B2933B70081B830 /* ucioption.cpp in Sources */,
+				0713C0811B2933B70081B830 /* stockfishenginetoguistream.cpp in Sources */,
+				0713C07C1B2933B70081B830 /* timeman.cpp in Sources */,
+				0713C0761B2933B70081B830 /* pawns.cpp in Sources */,
+				0713C0721B2933B70081B830 /* material.cpp in Sources */,
+				0713C07E1B2933B70081B830 /* uci.cpp in Sources */,
+				0713C06C1B2933B70081B830 /* bitbase.cpp in Sources */,
+				0713C0821B2933B70081B830 /* stockfishguitoenginestream.cpp in Sources */,
+				0713C06E1B2933B70081B830 /* endgame.cpp in Sources */,
+				0713C0801B2933B70081B830 /* stockfishanalysisinfo.cpp in Sources */,
+				0713C07A1B2933B70081B830 /* tbprobe.cpp in Sources */,
+				0713C0741B2933B70081B830 /* movegen.cpp in Sources */,
+				0713C0701B2933B70081B830 /* main.cpp in Sources */,
+				0713C06D1B2933B70081B830 /* bitboard.cpp in Sources */,
+				0713C07B1B2933B70081B830 /* thread.cpp in Sources */,
+				0713C0751B2933B70081B830 /* movepick.cpp in Sources */,
+				0713C0771B2933B70081B830 /* position.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
